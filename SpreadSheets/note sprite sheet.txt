@@ -1,0 +1,28 @@
+first this data show us the service of water in countries from 2000 to 2022 and the countries divided as rural , urban and allarea 
+__________________________________________________________________________________________________
+From data cleaning
+1-no duplicated rows
+2-there are some missing value in some column and we filled it with average
+3-max service=100 , min service=0
+4-no outlires from Q1,Q2,IQR and this show in box plot
+______________________________________________________________________________
+For data analysis
+1-insert acolumn to find which countries have service (>90 or >10 or between 10,50 or between 50,90)
+as >90 :they have very good service 
+between 50 and 90: thier service in agood range but the also need to improve thier service 
+between 10 and 50 :thier service is lower and they need to work to improve them
+as <10: they have the worest service and they need two much work to improve them
+2-thier are a17 countries thier service is >99.5 as they are the exellent service
+and a9 countries thier service is <5as they are the worest service
+3-we combared between congo and democratic of congo as both have less service but democratic is the worest 
+4-we combared between continents and knew that Europe has the best service and Africa has the worest service
+5-made two pivot tables to get the average value of service from GeoAreaName and TimePeriod
+________________________________________________________________________________________
+For data visualization 
+1-made aline chart show that the service increase every year
+2-apie chart to get the( top ,upper average,under average,less) service
+3-apie chart show comparing rural vs urban vs allarea access over a period of time 
+4-area chart to show comparison of continents
+5-other charts show what we did in analysis
+___________________________________________________________________________________________
+finally a DashBord to show all visualization we did.
